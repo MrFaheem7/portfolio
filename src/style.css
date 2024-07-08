@@ -1,0 +1,87 @@
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2d005c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(77, 1, 165, 0.959);
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(121, 7, 250);
+  border-radius: 12px;
+}
+/* --------- */
+/* Footer */
+/* --------- */
+.footer {
+  background-color: rgba(95, 107, 2, 0.582);
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+}
+.footer-copywright {
+  display: flex;
+  text-align: center !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-copywright span {
+  color: #faf600fa;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.footer-body {
+  z-index: 1;
+  text-align: center !important;
+}
+.footer-icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
+  list-style-type: none;
+}
+.social-icons {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: white !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.footer-icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
+}
+
+.blockquote-footer {
+  color: #a588c0 !important;
+}

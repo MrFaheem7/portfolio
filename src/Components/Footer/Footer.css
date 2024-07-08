@@ -1,0 +1,9 @@
+.divider {
+  margin: 0;
+  border: 1px solid #faf600fa;
+}
+.copy_rights {
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+}
