@@ -1,5 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiOutlineInstagram,
+  AiOutlineMail,
+} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import "./Footer.css";
 
@@ -47,6 +51,17 @@ const Footer = () => {
                   aria-label="Instagram"
                 >
                   <AiOutlineInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:mrfaheemuddin7@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "white" }}
+                  aria-label="Gmail"
+                >
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>

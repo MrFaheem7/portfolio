@@ -1,9 +1,9 @@
 .divider {
   margin: 0;
-  border: 1px solid #faf600fa;
+  border: 1px solid #0e7490;
 }
 .copy_rights {
   color: white;
-  padding: 16px;
+  padding-top: 16px;
   font-size: 14px;
 }
