@@ -4,7 +4,6 @@ import dsa from "../../assest/svg/dsa.svg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiGit,
   DiMysql,
   DiHtml5,
