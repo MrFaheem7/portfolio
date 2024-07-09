@@ -2,8 +2,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../assest/jpeg/home_img.png";
 import About from "../About/About";
 import Type from "../TypeWrite";
-// import pdf from "../assets/fahadSharifResume.pdf";
-// import { AiOutlineDownload } from "react-icons/ai";
 
 const Hero = () => {
   return (
@@ -42,17 +40,6 @@ const Hero = () => {
           </Container>
         </Container>
         <About />
-        {/* <div style={{ display: "flex", justifyContent: "center" }}>
-          <Button
-            style={{ padding: "8px 24px" }}
-            variant="primary"
-            href={pdf}
-            target="_blank"
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
-        </div> */}
       </section>
     </div>
   );

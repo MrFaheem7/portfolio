@@ -11,7 +11,7 @@ const Social = () => {
         <Col md={12} className="home-about-social">
           <h1 className="yellow">
             {" "}
-            <span style={{ color: "#0e7490 " }}>|</span> FIND ME ON
+            <b style={{ color: "#0e7490 " }}>| FIND ME ON</b>
           </h1>
           <p>Please don't hesitate to reach out to me and connect.</p>
           <ul className="home-about-social-links">

@@ -15,7 +15,9 @@ const Footer = () => {
       <Container fluid className="footer">
         <Row className="justify-content-between">
           <Col md="4" className="footer-copywright">
-            <span>Faheem Ud Din</span>
+            <span>
+              <b>Faheem Ud Din</b>
+            </span>
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">

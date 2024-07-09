@@ -44,10 +44,12 @@ const Contact = () => {
   };
 
   return (
-    <Container style={{ paddingTop: "7rem" }}>
+    <Container id="contact" style={{ paddingTop: "7rem" }}>
       <Row>
         <Col md={6} className="c-left">
-          <h1 style={{ color: "#0e7490" }}>Get in Touch</h1>
+          <h1 style={{ color: "#0e7490" }}>
+            <b>Get in Touch</b>
+          </h1>
           <p>
             Drop me a line, give me a call, or send me a message by submitting
             the form.

@@ -4,37 +4,30 @@ import LaptopImg from "../../assest/png/laptop.png";
 const About = () => {
   return (
     <Container fluid id="about">
+      <h1 className="project-heading">
+        <strong className="yellow"> | About Me </strong>
+      </h1>
       <Row>
         <Col md={8}>
           <p className="home-about-body">
-            Innovative React and Node JS Developer with over 3 years of
-            experience creating dynamic and responsive web applications from
-            scratch to end.
+            I am a recent graduate from UET Lahore with a strong foundation in
+            programming concepts. Passionate about software development, I have
+            honed my skills in various programming languages and frameworks.
             <br />
             <br />
-            Possessing a strong foundation in{" "}
-            <b className="yellow">
-              {" "}
-              React.js, Node.js, Express.js, Redux, HTML, CSS, SASS, JavaScript,
-              TypeScript, MongoDB, Firebase, Git, GitHub and GitLab.
-            </b>
+            Following my graduation, I spent six months in the industry working
+            with React.js, where I applied my academic knowledge to real-world
+            applications. This experience not only deepened my understanding of
+            React.js but also taught me valuable lessons in agile development,
+            code optimization, and user interface design. I am now eager to
+            leverage my educational background and industry experience to
+            contribute to innovative software projects
             <br />
             <br />
-            Throughout my career, I have collaborated with talented teams to
-            successfully deliver high-quality projects. I excel in agile
-            development methodologies and possess strong problem-solving skills,
-            allowing me to identify and rectify issues swiftly. My commitment to
-            continuous learning ensures I stay up-to-date with latest industry
-            trends and technologies, leveraging cutting-edge tools and
-            frameworks like Nest.js to enhance the development process and
-            deliver optimal solutions.
-            <br />
-            <br />
-            If you're seeking a dedicated<b className="yellow"> React </b>and
-            <b className="yellow"> Node JS </b>developer who can contribute to
-            your team's success, I invite you to connect with me. Let's explore
-            opportunities together to collaborate and create efficient web
-            applications that suited to user needs.
+            If you're seeking a dedicated<b className="yellow"> React </b>
+            developer who can contribute to your team's success, I invite you to
+            connect with me. Let's explore opportunities together to collaborate
+            and create efficient web applications that suited to user needs.
           </p>
         </Col>
         <Col md={4} className="myAvtar">

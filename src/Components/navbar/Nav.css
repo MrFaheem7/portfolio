@@ -1,0 +1,17 @@
+.logo_class {
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  color: #0e7490;
+}
+
+.get_in_touch {
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .logo_class {
+    font-size: 22px;
+    padding: 0;
+  }
+}
