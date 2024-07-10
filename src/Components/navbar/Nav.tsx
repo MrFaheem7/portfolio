@@ -35,7 +35,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex ">
-          <div className="logo_class">Faheem Ud Din</div>
+          <div className="logo_class">Faheem Ud Din .</div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -81,8 +81,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
+                to="#projects"
+                onClick={() => {
+                  const element = document.getElementById("project");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
