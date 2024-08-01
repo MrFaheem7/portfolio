@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import "./Nav.css";
-import pdf from "../../assest/pdf/Faheem Ud Din.pdf";
+import pdf from "../../assest/pdf/Faheem_Ud_Din.pdf";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
