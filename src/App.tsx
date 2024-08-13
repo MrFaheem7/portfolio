@@ -5,32 +5,32 @@ import {
   Routes,
 } from "react-router-dom";
 
-import Home from "./pages/Home";
 import ParticlesComponent from "./Components/Particles";
 import "./App.css";
 import "./style.css";
 import "./index.css";
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import Loader from "./Components/Loader";
 function App() {
-  const [load, setLoad] = useState(true);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoad(false);
-    }, 1200);
+  // const [load, setLoad] = useState(true);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoad(false);
+  //   }, 1200);
 
-    return () => clearTimeout(timer);
-  }, []);
-
+  //   return () => clearTimeout(timer);
+  // }, []);
+  const Home = lazy(() => import("./pages/Home"));
   return (
     <>
       <Router>
-        {load && <Loader load={load} />}
         <ParticlesComponent id="tsparticles" />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
+        <Suspense fallback={<Loader />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </Suspense>
       </Router>
     </>
   );
